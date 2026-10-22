@@ -19,10 +19,10 @@ export default class Home extends Component {
           <h1>POMODORA</h1>
           <p>Restaurang & Pizzeria</p>
           <button 
+              className="like-button"
               onClick={this.handleLike} 
-              style={{ margin: '20px auto', display: 'block', padding: '10px 20px', cursor: 'pointer', backgroundColor: '#e74c3c', color: 'white', border: 'none', borderRadius: '5px' }}
           >
-            ❤️ Gilla pizzerian! ({this.state.likes})
+            Gilla pizzerian! ({this.state.likes})
           </button>
         </section>
 
